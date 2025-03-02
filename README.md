@@ -2,5 +2,7 @@
 
 ## Resources:
 
-- <https://dev.to/willyelm/a-simple-approach-to-ssr-with-react-19-and-esbuild-26e5>
 - <https://jotai.org/>
+- <https://jotai.org/docs/extensions/urql>
+- <https://commerce.nearform.com/open-source/urql/docs/basics/react-preact/>
+- <https://gql-tada.0no.co/get-started/>
