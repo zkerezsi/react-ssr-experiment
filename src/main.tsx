@@ -11,14 +11,14 @@ app.use(express.static("public"));
 
 app.use((request: Request, response: Response) => {
   const { pipe } = renderToPipeableStream(
-    <html lang="en">
+    <html lang="en" className="h-full">
       <head>
         <meta charSet="UTF-8" />
         <link rel="stylesheet" href="/static/style.css" />
       </head>
-      <body>
+      <body className="h-full">
         <base href="/" />
-        <div id="app">
+        <div id="app" className="h-full">
           <StaticRouter location={request.url}>
             <App />
           </StaticRouter>
